@@ -1,0 +1,52 @@
+    .h1 {
+	visibility: hidden;
+}
+
+@media screen and (min-width: 1081px) {
+    img {
+        content:url(https://media.tenor.com/images/20e6b7cb76e3a935c115e620c2b6ea31/tenor.gif);
+    }body {
+	    background-color: red;
+	}
+	
+}
+
+@media screen and (max-width: 1080px) {
+  img {
+      content:url(http://laoblogger.com/images/gif-clipart-images-of-michael-jorday-basketball-6.jpg);
+  }
+	body {
+	    background-color: black;
+	}
+}
+
+@media screen and (max-width: 820px) {
+   img {
+      content:url(https://i.makeagif.com/media/4-08-2017/AtNaVy.gif);
+   }
+	 body {
+	    background-color: red;
+	 }
+}
+
+@media screen and (max-width: 600px) {
+  img {
+      content:url(https://media.tenor.com/images/955ecb0cdd8e52304dacd26cef736252/tenor.gif);
+  }
+	body {
+	    background-color: black;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	
+	.h1 {
+	visibility: visible;
+	}
+  .hidden {
+        content:url(https://media.tenor.com/images/5a49c0bc960703bc126706288ed82c58/tenor.gif);
+  }
+	body {
+	    background-image: url("http://gifgifs.com/animations/other-animations/money/a-lot-of-money.gif");
+	}
+}
